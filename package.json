@@ -1,0 +1,31 @@
+{
+  "name": "next-auth-aad",
+  "version": "0.0.1",
+  "private": true,
+  "description": "An example project for NextAuth.js with AAD",
+  "repository": "https://github.com/425Show/next-auth-aad.git",
+  "homepage": "https://aka.ms/425Show/web",
+  "main": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Christos Matskas <christos.matskas@microsoft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/identity": "^1.4.0",
+    "@azure/storage-blob": "^12.6.0",
+    "azure-storage": "^2.10.4",
+    "next": "^11.0.0",
+    "next-auth": "next",
+    "postcss": "^8.3.5",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sqlite3": "^5.0.2",
+    "tailwindcss": "^2.2.4"
+  }
+}
